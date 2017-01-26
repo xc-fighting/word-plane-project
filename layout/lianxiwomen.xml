@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFDB"
+ >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="#bbbbbb"
+        android:gravity="center_horizontal"
+        android:text="说说你想和我们说的话"
+        android:textColor="#000099"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/send"
+        android:layout_alignLeft="@+id/text"
+        android:layout_alignRight="@+id/text"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="26dp"
+        android:background="#dddddd"
+        android:ems="10"
+        android:gravity="top|left" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFC1C1"
+        android:textColor="#0000ff"
+        android:text="发送留言" />
+
+    <Button
+        android:id="@+id/chakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFC1C1"
+        android:textColor="#0000ff"
+        android:text="查看留言" />
+
+    <Button
+        android:id="@+id/liuyanback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFC1C1"
+        android:textColor="#0000ff"
+        android:text="返回" />
+
+</RelativeLayout>

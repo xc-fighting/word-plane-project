@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFDB"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+      android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="#bbbbbb"
+         android:textColor="#000099"
+        android:textSize="25sp"
+        android:text="留言记录查询" />
+
+    <TextView
+        android:id="@+id/liuyanneirong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/liuyanshijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/liuyanqueren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="#FFC1C1"
+        android:textColor="#0000ff"
+        android:text="确认" />
+
+</LinearLayout>

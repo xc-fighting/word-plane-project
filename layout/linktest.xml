@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF68F"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/ipinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF0F5"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/linkbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F0FFF0"
+        android:text="测试连接" />
+
+</LinearLayout>

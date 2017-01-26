@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.beidanci.Word"
+    android:background="@drawable/bg"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/shuxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:height="48dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="熟悉"
+        android:background="@drawable/yello"
+        android:width="80dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:height="48dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="返回"
+        android:background="@drawable/pink"
+        android:width="80dp" />
+
+    <Button
+        android:id="@+id/put"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/word"
+        android:background="@drawable/video"
+        android:text="  " />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+         
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/bushuxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/green"
+        android:text="不熟悉" />
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/back"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/word"
+        android:text="explanation" />
+
+</RelativeLayout>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="请输入用户名" />
+
+    <EditText
+        android:id="@+id/editreg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEFD5"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="请输入密码" />
+
+    <EditText
+        android:id="@+id/editreg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEFD5"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="再次输入密码" />
+
+    <EditText
+        android:id="@+id/editreg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEFD5"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/green"
+            android:text="注册用户" />
+
+    </RelativeLayout>
+
+</LinearLayout>
